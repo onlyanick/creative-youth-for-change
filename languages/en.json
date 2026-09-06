@@ -1,0 +1,39 @@
+{
+  "aboutUs": "About us",
+  "projects": "Projects",
+  "team": "Team",
+  "contact": "Contact",
+  "contribute": "Contribute",
+  "enroll": "Enroll",
+  "languageBtn": "دری",
+  "links": "Links",
+  "privacyPolicy": "Privacy policy",
+  "connect": "Connect",
+  "facebook": "Facebook",
+  "instagram": "Instagram",
+  "twitter": "X (Twitter)",
+  "linkedin": "LinkedIn",
+  "email": "Email",
+  "phone": "Phone",
+
+  "projectsPage": {
+    "title": "Our Projects",
+    "subtitle": "Transforming lives through education, advocacy, and leadership development",
+    "readMore": "Read more",
+    "educationAsARight": {
+      "title": "Education as a Right",
+      "heading": "Education is not a privilege. It's a fundamental right.",
+      "description": "Our flagship program providing quality education for students worldwide, with special focus on marginalized girls and women in Afghanistan"
+    },
+    "sheLeads": {
+      "title": "She Leads",
+      "heading": "Empowering women to lead, inspire, and transform.",
+      "description": "Amplifying the voices of 5,000 Afghan girls and women. Documenting their stories, building their leadership, and advocating for their rights on the global stage."
+    },
+    "humanityMatters": {
+      "title": "Humanity Matters",
+      "heading": "Understanding is where change begins.",
+      "description": "A 2-week online debate program focusing on human rights, peacebuilding, equality, freedom, and democracy with focus on global crises."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+:root {
+  --green: #23ad01;
+  --dark-green: #103300;
+  --white: #eff5f2;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Rubik";
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  color: var(--green);
+  margin: 50px 0 30px;
+  font-size: 3em;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 300;
+}

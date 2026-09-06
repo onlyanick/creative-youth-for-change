@@ -1,0 +1,171 @@
+/* NAVBAR*/
+
+.navbar .logo {
+  height: 120px;
+  aspect-ratio: 1/1;
+  padding: 0;
+}
+
+.navbar a:not(:first-child):not(.contribute-btn):not(.enroll-btn) {
+  color: var(--dark-green);
+  padding: 50px;
+}
+
+.navbar a:hover:not(:first-child) {
+  color: var(--green);
+  background-color: #eff5f2be;
+}
+
+.navbar button {
+  color: var(--dark-green);
+  background-color: #eff5f200;
+  border: 0px;
+}
+
+.navbar button:hover {
+  color: rgb(0, 207, 0);
+}
+
+.navbar .contribute-btn,
+.navbar .enroll-btn {
+  color: var(--white);
+  text-align: center;
+  width: 130px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.navbar .contribute-btn {
+  background-color: var(--green);
+}
+
+.navbar .contribute-btn:hover {
+  background-color: #eff5f2be;
+  text-decoration: none;
+  border: var(--green) solid 2px;
+  color: var(--green);
+}
+
+.navbar .enroll-btn {
+  background-color: var(--dark-green);
+}
+
+.navbar .enroll-btn:hover {
+  background-color: #eff5f2be;
+  text-decoration: none;
+  border: var(--dark-green) solid 2px;
+  color: var(--dark-green);
+}
+
+#open-btn,
+#close-btn {
+  display: none;
+}
+
+/* FOOTER */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h4,
+footer p,
+footer a {
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+footer img {
+  width: 200px;
+}
+
+/* PROJECTS  */
+
+.project img {
+  max-width: 50%;
+  aspect-ratio: 1/1;
+}
+
+.project h2{
+  font-size: 2em;
+}
+
+.project h3 {
+  margin-top: 30px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.project p {
+  margin-top: 30px;
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+.project .read-more {
+  color: var(--green);
+}
+
+
+.project:hover h2{
+  color: var(--green)
+}
+
+
+.project:hover .read-more{
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  /* === TABLETS === */
+
+  /* FOOTER */
+}
+
+@media (max-width: 768px) {
+  /* === MOBILE === */
+
+  /* NAVBAR */
+  .navbar a:not(:first-child):not(.contribute-btn):not(.enroll-btn),
+  .navbar button {
+    padding: 0px;
+  }
+
+  .navbar a:not(:first-child),
+  .navbar button {
+    display: none;
+  }
+
+  .navbar.open a,
+  .navbar.open button {
+    display: block;
+    margin: 10px;
+  }
+
+  #open-btn {
+    display: block;
+  }
+
+  #close-btn {
+    display: none;
+  }
+
+  .navbar.open #open-btn {
+    display: none;
+  }
+
+  .navbar.open #close-btn {
+    display: block;
+  }
+
+  /* FOOTER */
+
+  .footer-container {
+    align-items: center;
+  }
+
+  footer h4 {
+    margin-top: 30px;
+  }
+}
