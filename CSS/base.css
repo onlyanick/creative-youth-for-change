@@ -9,12 +9,12 @@ body {
   font-family: "Rubik";
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-a:hover{
-text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -24,8 +24,14 @@ h1 {
   font-size: 3em;
 }
 
-.subtitle{
+.subtitle {
   text-align: center;
   font-size: 1.4em;
   font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-top: 130px;
+  }
 }

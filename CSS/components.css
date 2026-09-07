@@ -87,7 +87,7 @@ footer img {
   aspect-ratio: 1/1;
 }
 
-.project h2{
+.project h2 {
   font-size: 2em;
 }
 
@@ -107,13 +107,11 @@ footer img {
   color: var(--green);
 }
 
-
-.project:hover h2{
-  color: var(--green)
+.project:hover h2 {
+  color: var(--green);
 }
 
-
-.project:hover .read-more{
+.project:hover .read-more {
   text-decoration: underline;
 }
 
@@ -167,5 +165,11 @@ footer img {
 
   footer h4 {
     margin-top: 30px;
+  }
+
+  /* PROJECTS */
+
+  .project img {
+    max-width: 100%;
   }
 }

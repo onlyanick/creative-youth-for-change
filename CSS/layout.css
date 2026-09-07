@@ -11,6 +11,7 @@
 .footer {
   width: 100%;
   padding: 30px;
+  margin-top: 150px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
@@ -36,7 +37,6 @@
   transform: scale(1.01);
 }
 
-
 .text-content {
   padding: 50px;
 }
@@ -55,11 +55,14 @@
 }
 
 @media (max-width: 768px) {
+  /* === MOBILE === */
+
   /* NAVBAR */
 
   .navbar {
     height: fit-content;
     position: fixed;
+    top: 0;
     background-color: #f7ffffd2;
   }
 
@@ -69,12 +72,19 @@
     padding-bottom: 20px;
   }
 
-  /* MOBILE */
+  /* FOOTER */
 
   .footer {
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  /* PROJECTS */
+  .project {
+    display: block;
+    margin: 50px 10px;
+    border: 0.5px solid #d4d4d475;
   }
 }
