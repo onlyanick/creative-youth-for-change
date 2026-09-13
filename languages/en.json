@@ -23,17 +23,43 @@
     "educationAsARight": {
       "title": "Education as a Right",
       "heading": "Education is not a privilege. It's a fundamental right.",
-      "description": "Our flagship program providing quality education for students worldwide, with special focus on marginalized girls and women in Afghanistan"
+      "description": "Our flagship program providing quality education for students worldwide, with special focus on marginalized girls and women in Afghanistan",
+      "description2": "Our main goal is to make education accessible to everyone, mainly to marginalized girls and women in Afghanistan who have been deprived of learning."
     },
     "sheLeads": {
       "title": "She Leads",
       "heading": "Empowering women to lead, inspire, and transform.",
-      "description": "Amplifying the voices of 5,000 Afghan girls and women. Documenting their stories, building their leadership, and advocating for their rights on the global stage."
+      "description": "Amplifying the voices of 5,000 Afghan girls and women. Documenting their stories, building their leadership, and advocating for their rights on the global stage.",
+      "description2": "She Leads exists to unlock the leadership potential of Afghan women and girls. By transforming individual experiences into collective advocacy, the project contributes to a future where women are empowered to lead, create, and make decisions—strengthening families, communities, and society as a whole.",
+      "aboutUsTitle": "About Us & Our History",
+      "aboutUsParagraph1": "She Leads is a youth-initiated project under Creative Youth for Change (CYC). It was developed in response to the increasing restrictions faced by girls and women in Afghanistan. In recent years, Afghan girls have been denied access to education, excluded from public life, and prevented from participating in decisions that affect their futures. She Leads was created to address this reality by offering a safe and credible platform where these voices can be heard, documented, and taken seriously.",
+      "aboutUsParagraph2": "The project is headed by Miss Tayyaba Sajjad and supported by CYC Founder Mr. Abdul Khaliq Towhidi. What began as concern over the silencing of Afghan women evolved into a structured initiative focused on advocacy, documentation, and leadership development. She Leads is grounded in the belief that meaningful change cannot occur without the direct involvement of those most affected by injustice.",
+      "aboutUsParagraph3": "At its core, She Leads provides Afghan girls and women with the opportunity to share their lived experiences, including the challenges they face in accessing education, personal freedom, and basic rights. Alongside Afghan participants, the project also engages international allies to strengthen dialogue and advocacy around peace, democracy, and gender equity.",
+      "aboutUsParagraph4": "One of the project's key objectives is to amplify the voices of 5,000 girls and women and compile their testimonies into a consolidated report to be shared with major international institutions and media platforms, including the United Nations. Through storytelling and strategic outreach, She Leads seeks to maintain sustained global attention on the rights of Afghan women.",
+      "visionTitle": "Our Vision",
+      "visionParagraph1": "She Leads envisions a future in which Afghan girls are not exceptions to progress, but leaders within their communities and society. We believe in a future where girls grow up knowing their voices matter, their decisions are respected, and their ambitions are supported rather than restricted.",
+      "visionParagraph2": "Our vision is rooted in the understanding that Afghan women already possess resilience, intelligence, and leadership capacity. What remains lacking is access to education, opportunity, and platforms where this potential can be recognized and developed.",
+      "visionParagraph3": "She Leads rejects narratives that portray Afghan women as passive or powerless. Instead, we recognize them as thinkers, innovators, organizers, and decision-makers whose contributions have been constrained by circumstance, not ability.",
+      "missionTitle": "Our Mission",
+      "missionParagraph1": "The mission of She Leads is to support and develop the next generation of women leaders in Afghanistan. At a time when girls are being pushed out of schools and public spaces, the project works to ensure that their ambitions continue to grow.",
+      "missionIntro": "This mission is carried out through three focus areas:",
+      "topicTrainingTitle": "Training and Mentorship",
+      "topicTrainingDescription": "She Leads emphasizes skill-building and mentorship that takes into account the social and cultural realities Afghan girls face. Through structured learning and guidance, the project creates realistic pathways toward leadership.",
+      "topicVoiceTitle": "Voice and Storytelling",
+      "topicVoiceDescription": "She Leads provides a platform for girls to share their experiences, raise concerns, and propose solutions related to education, rights, and civic participation. Special attention is given to ensuring that marginalized groups, including girls with disabilities, are represented.",
+      "topicAdvocacyTitle": "Advocacy and Long-Term Impact",
+      "topicAdvocacyDescription": "By connecting personal experiences with broader advocacy efforts, She Leads works to influence public discourse and policy discussions related to women's rights and leadership in Afghanistan.",
+      "impactTitle": "Project Impact",
+      "impactGirlsHeard": "girls heard",
+      "impactMentees": "mentees",
+      "impactCountries": "countries involved",
+      "joinTitle": "Join She Leads Movement",
+      "joinDescription": "Be part of empowering women and girls around the world. Whether you choose to volunteer your time or enroll in the project, your contribution makes a difference in creating a more equitable world."
     },
     "humanityMatters": {
       "title": "Humanity Matters",
       "heading": "Understanding is where change begins.",
-      "description": "A 2-week online debate program focusing on human rights, peacebuilding, equality, freedom, and democracy with focus on global crises."
+      "description": "A 2-week online debate program focusing on human rights, peacebuilding, equality, freedom, and democracy with a specific focus on Afghanistan, Palestine, and Ukraine crises."
     }
   }
 }
