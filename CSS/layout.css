@@ -67,6 +67,7 @@
 }
 
 .join-us {
+  border-top: 1px var(--green) solid; 
   text-align: center;
   padding: 150px 25% 0;
 }
