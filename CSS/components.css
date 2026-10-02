@@ -107,16 +107,16 @@ footer img {
 
 /* === INDIVIDUAL PAGES === */
 
-.project-highligh img {
+.project-highlight img {
   width: 750px;
   aspect-ratio: 1/1;
 }
 
-.project-highligh h2 {
+.project-highlight h2 {
   color: var(--green);
 }
 
-.project-highligh h3 {
+.project-highlight h3 {
   font-size: 1.2em;
   color: var(--dark-green);
   font-weight: 500;
@@ -130,20 +130,21 @@ footer img {
   color: var(--white);
 }
 
-.impact-box p, .join-us p{
+.impact-box p,
+.join-us p {
   font-size: 1.2em;
 }
 
-.impact-box h3, .join-us h3{
+.impact-box h3,
+.join-us h3 {
   font-size: 2em;
 }
 
-
-.impact-box h4{
+.impact-box h4 {
   font-size: 3em;
 }
 
-.join-us a{
+.join-us a {
   display: inline-block;
   width: 200px;
   margin: 20px 20px 0 0;
@@ -151,6 +152,62 @@ footer img {
 
 .join-us p {
   margin-top: 20px;
+}
+
+/* === ABOUT US PAGES === */
+
+.about-highlight img {
+  width: 50%;
+  aspect-ratio: 1/1;
+}
+
+.about-highlight h2 {
+  color: var(--green);
+}
+
+.about-highlight h3 {
+  font-size: 1.2em;
+  color: var(--dark-green);
+  font-weight: 500;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--green);
+  margin: 75px 0 36px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #dfe5f2;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  border-top: 5px var(--green) solid;
+  padding: 22px 28px 30px;
+  text-align: center;
+}
+
+.card-body h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark-green);
+  margin-bottom: 14px;
+}
+
+.card-body p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--grey);
 }
 
 @media (max-width: 1024px) {
@@ -212,8 +269,18 @@ footer img {
   }
 
   /* === INDIVIDUAL PAGES === */
-  
-  .impact-box h4{
+
+  .impact-box h4 {
     margin-top: 30px;
+  }
+
+  /* === ABOUT US PAGES === */
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-highlight img{
+    width: 100%;
   }
 }

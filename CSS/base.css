@@ -13,6 +13,7 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--green);
 }
 
 a:hover {
@@ -47,6 +48,8 @@ img {
 }
 
 .subtitle {
+  max-width: 60%;
+  margin: auto;
   text-align: center;
   font-size: 1.4em;
   font-weight: 300;
@@ -89,4 +92,8 @@ img {
   .paragraph {
     margin: 0 7% 100px;
   }
+
+  .subtitle {
+  max-width: 90%;
+}
 }
