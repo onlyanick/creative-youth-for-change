@@ -28,6 +28,7 @@
 
 .contribute-btn,
 .enroll-btn {
+  font-weight: 450;
   color: var(--white);
   text-align: center;
   width: 130px;
@@ -40,7 +41,7 @@
 }
 
 .contribute-btn:hover {
-  background-color: #eff5f2be;
+  background-color: #ffffffff;
   text-decoration: none;
   border: var(--green) solid 2px;
   color: var(--green);
@@ -51,7 +52,7 @@
 }
 
 .enroll-btn:hover {
-  background-color: #eff5f2be;
+  background-color: #ffffffff;
   text-decoration: none;
   border: var(--dark-green) solid 2px;
   color: var(--dark-green);
@@ -125,8 +126,8 @@ footer img {
 }
 
 .impact-box p,
-.impact-box h3,
-.impact-box h4 {
+.impact-box h2,
+.impact-box h3 {
   color: var(--white);
 }
 
@@ -135,12 +136,12 @@ footer img {
   font-size: 1.2em;
 }
 
-.impact-box h3,
-.join-us h3 {
+.impact-box h2,
+.join-us h2 {
   font-size: 2em;
 }
 
-.impact-box h4 {
+.impact-box h3 {
   font-size: 3em;
 }
 
@@ -205,10 +206,28 @@ footer img {
 }
 
 .card-body p {
-  font-size: 14px;
+  font-size: 0.9em;
   line-height: 1.6;
   color: var(--grey);
 }
+
+/* === HOMEPAGE === */
+
+.hero h1,
+.hero p {
+  color: var(--white);
+}
+
+.cards a:hover {
+  text-decoration: none;
+  transform: scale(1.01);
+}
+
+.cards a {
+  display: block;
+  transition: transform 0.5s ease;
+}
+
 
 @media (max-width: 1024px) {
   /* ====== TABLETS ====== */
@@ -280,7 +299,7 @@ footer img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .about-highlight img{
+  .about-highlight img {
     width: 100%;
   }
 }

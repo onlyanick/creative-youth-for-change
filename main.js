@@ -61,3 +61,7 @@ let languageData = localStorage.getItem("language") || "en";
     }
   });
 })();
+
+// HOMEPAGE
+
+

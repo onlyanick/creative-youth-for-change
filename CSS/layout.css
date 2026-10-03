@@ -67,16 +67,57 @@
 }
 
 .join-us {
-  border-top: 1px var(--green) solid;
   text-align: center;
-  padding: 150px 25% 0;
+  padding: 150px 25%;
+  background-color: #deffdf;
+  margin-bottom: -150px;
 }
+
 
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 50px;
+  align-items: stretch;
+}
+
+/* === HOMEPAGE === */
+
+.hero {
+  text-align: center;
+  padding: 250px;
+  background: linear-gradient(#00410988, #00410988), url(/0images/hero2.png);
+  background-size: cover;
+}
+
+.hero p {
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+
+.home-box {
+  margin-bottom: 100px;
+}
+
+.country-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 14px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.country {
+  padding: 10px 18px;
+  border: 1px solid #d5d8de;
+  color: var(--grey);
+  font-size: 0.8em;
+  font-weight: 500;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
 }
 
 @media (max-width: 1024px) {
